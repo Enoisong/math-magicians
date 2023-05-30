@@ -105,7 +105,6 @@ It will be deployed after merge
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/enobong-isong/)
 
 ## 🔭 Future Features <a name="future-features"></a>
--  
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
