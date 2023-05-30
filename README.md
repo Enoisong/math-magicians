@@ -4,8 +4,7 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack) 
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+    - [Key Features](#key-features) 
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -37,10 +36,6 @@
 - Use Gitflow
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-## 🚀 Live Demo <a name="live-demo"></a>
- [Coming Soon](#)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 clone from repository: https://github.com/Enoisong/math-magicians.git
@@ -104,6 +99,7 @@ It will be deployed after merge
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/enobong-isong/)
 
 ## 🔭 Future Features <a name="future-features"></a>
+- [] **To add more dynamics to the projefeature like transition to make it Responsive**
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
