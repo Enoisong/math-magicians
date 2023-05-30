@@ -1,4 +1,4 @@
- # React js Template
+# math-magicians 
 <a name="readme-top"></a>
  # 📗 Table of Contents
 - [📖 About the Project](#about-project)
@@ -75,7 +75,6 @@ Install this project with:
 - Github.
 
 ### Usage
-
 ### To run the project, execute the following command:  
  
 ### Run tests
@@ -100,7 +99,8 @@ It will be deployed after merge
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/enobong-isong/)
 
 ## 🔭 Future Features <a name="future-features"></a>
--  To make the app responsive
+ 
+- [] **To add more dynamics to the project - features like transition to make it Responsive**
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
