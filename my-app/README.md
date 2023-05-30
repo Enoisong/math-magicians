@@ -1,4 +1,5 @@
 # React js Template
+
 <a name="readme-top"></a>
  # 📗 Table of Contents
 - [📖 About the Project](#about-project)
@@ -36,7 +37,6 @@
 - React & Redux linters added
 - Use Gitflow
  
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
