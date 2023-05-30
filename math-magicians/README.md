@@ -80,7 +80,6 @@ Install this project with:
 - Github.
 
 ### Usage
-
 ### To run the project, execute the following command:  
  
 ### Run tests
