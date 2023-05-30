@@ -89,7 +89,6 @@ To run linters tests, run the following command:
 npx eslint "**/*.{js,jsx}"
 npx stylelint "**/*.{css,scss}"
  
-
 ### Deployment
 
 It will be deployed after merge
