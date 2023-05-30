@@ -1,4 +1,4 @@
-# leader-board project
+ # React js Template
 <a name="readme-top"></a>
  # 📗 Table of Contents
 - [📖 About the Project](#about-project)
@@ -22,41 +22,34 @@
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
-# 📖 leader-board   <a name="about-project"></a> 
- 
-"leader-board" is an app that displays scores submitted by different players. It uses API to get data and post new scores.
+# 📖 Math-magician <a name="about-project"></a> 
  
 ## 🛠 Built With <a name="built-with"></a>
 
--  Major languages
-```bash
-- (HTML, CSS, JavaScript)
-- Webpack
-```
 ### Tech Stack <a name="tech-stack"></a>
-- HTML
-- CSS
-- javascript
-- Webpack
+- React
 - Gitflow
 - Version Control (GitHub)
  
 <!-- Features -->
 ### Key Features <a name="key-features"></a>
-- Javascript, ES6
-- CSS3
-- HTML5 semantics
-- Webpack
-- Gitflow
-
+- React & Redux linters added
+- Use Gitflow
+ 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 ## 🚀 Live Demo <a name="live-demo"></a>
- [Go Live](https://enoisong.github.io/leader-board/)
+ [Coming Soon](#)
 
 ## 💻 Getting Started <a name="getting-started"></a>
-clone from repository: https://github.com/Enoisong/leader-board.git
+clone from repository: https://github.com/Enoisong/math-magicians.git
+
+```
+cd My-app
+npm install
+npm start
+```
 
 ### Prerequisites
 In order to run this project you need to:
@@ -69,20 +62,14 @@ In order to run this project you need to:
 
 ```bash
 ```bash
-$ git clone https://github.com/Enoisong/leader-board.git
-$ cd leader-board
+$ git clone https://github.com/Enoisong/math-magicians.git
+$ cd my-app
 
 ### Run project
-
-```bash
-$ npm install
-$ npm build
-$ npm start
-```
-
+ 
 #### Open page in browser
 ```bash
-$ runs on http://localhost:8081/
+$ runs on http://localhost:3000/
 ```
 
 ### Install
@@ -95,16 +82,13 @@ Install this project with:
 ### Usage
 
 ### To run the project, execute the following command:  
-- Git clone <>
-- Install the Live server extension of the VScode and run Go Live
-
+ 
 ### Run tests
 
 To run linters tests, run the following command: 
-npx hint .
+npx eslint "**/*.{js,jsx}"
 npx stylelint "**/*.{css,scss}"
-npx eslint .
-
+ 
 ### Deployment
 
 It will be deployed after merge
@@ -116,14 +100,12 @@ It will be deployed after merge
 - Enobong Isong
  
 👤 **Author**
-👤 **Author**
-- GitHub: [@githubhandle](https://github.com/Enoisong)
+ - GitHub: [@githubhandle](https://github.com/Enoisong)
 - Twitter: [@twitterhandle](https://twitter.com/Enobongmisong)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/enobong-isong/)
 
 ## 🔭 Future Features <a name="future-features"></a>
--   [] **To Add more dynamics to the project; feature like animation 
-    and transition
+-  
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,4 +141,3 @@ If you like this project, give me a ⭐️ star!
 This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
- 
