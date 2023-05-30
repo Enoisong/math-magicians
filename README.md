@@ -1,5 +1,4 @@
-# math-magicians
- # React js Template
+# math-magicians 
 <a name="readme-top"></a>
  # 📗 Table of Contents
 - [📖 About the Project](#about-project)
