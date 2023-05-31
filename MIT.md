@@ -1,7 +1,7 @@
 ## Copyright 2021, Enobong Isong
 
 ###### Please delete this line and the next one
-###### leader-board project can be a webpage/website, a web app, a software and so on
+###### math-magicians project can be a webpage/website, a web app, a software and so on
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this leader-board project and associated documentation files, to deal in the leader-board project without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the leader-board Project, and to permit persons to whom the leader-board project is furnished to do so, subject to the following conditions:
 
