@@ -5,13 +5,20 @@ import Calculator from './components/Calculator';
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      data: {
+        total: null,
+        next: null,
+        operation: null,
+      },
+    };
   }
 
   render() {
+    const { data } = this.state;
     return (
       <div className="App">
-        <Calculator />
+        <Calculator data={data} />
       </div>
     );
   }

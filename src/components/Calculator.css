@@ -15,20 +15,18 @@
 .btn {
   background-color: #e0e0e0;
   padding: 15px 30px;
+  border: none;
+  cursor: pointer;
 }
 
 .btn:nth-child(4n) {
   background: #f5913e;
 }
 
-.last-row {
-  grid-column-gap: 2px;
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  margin-top: 2px;
+.btn-zero {
+  grid-column: 1/3;
 }
 
 .btn-equal {
   background: #f5913e;
-  padding: 15px 30px;
 }
