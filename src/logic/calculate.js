@@ -5,14 +5,14 @@ function isNumber(item) {
 }
 
 /**
- * If a button name and a calculator data object is given,
- * return an updated calculator data object.
- * The Calculate data object contains:
- * total:s     the running total
+ *Given a button name and calculator data object, return an updated
+ *calculator data object.
+ *
+ * Calculator data object contains:
+ * total:s    the running total
  * next:String     the next number to be operated on with the total
  * operation:String +, -, etc.
  */
-
 export default function calculate(obj, buttonName) {
   if (buttonName === 'AC') {
     return {
@@ -33,8 +33,7 @@ export default function calculate(obj, buttonName) {
       }
       return { ...obj, next: buttonName };
     }
-
-    // If no operation, update next and clear value
+    // If there is no operation, update next and clear the value
     if (obj.next) {
       return {
         next: obj.next + buttonName,
@@ -74,7 +73,7 @@ export default function calculate(obj, buttonName) {
         operation: null,
       };
     }
-    // if '=' is used with no operation, then, nothing to do
+    // '=' with no operation, then, nothing to do
     return {};
   }
 
@@ -90,18 +89,17 @@ export default function calculate(obj, buttonName) {
 
   // Button must be an operation
 
-  // When a user press an operation button without entering:
+  // When a user presses an operation button without having entered
   // a number first, do nothing.
   // If (!obj.next && !obj.total) {
   // return {};
   // }
 
   // User pressed an operation after pressing '='
-
   if (!obj.next && obj.total && !obj.operation) {
     return { ...obj, operation: buttonName };
   }
-  // If a user press an operation button and ghere is an existing operation
+  // User pressed an operation button and there is an existing operation
   if (obj.operation) {
     if (obj.total && !obj.next) {
       return { ...obj, operation: buttonName };
@@ -114,8 +112,8 @@ export default function calculate(obj, buttonName) {
     };
   }
 
-  // if no operation yet, but the user type one
-  // if a user has not typed a number yet, save the operation
+  // no operation yet, but the user typed one
+  // The user hasn't typed a number yet, just save the operation
   if (!obj.next) {
     return { operation: buttonName };
   }

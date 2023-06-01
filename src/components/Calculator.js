@@ -1,77 +1,43 @@
-import react from 'react';
-import './Calculator.css';
+import './style.css';
+import React, { Component } from 'react';
+import Button from './Button';
+import OutputScreen from './OutputScreen';
 import calculate from '../logic/calculate';
 
-class Calculator extends react.Component {
-  constructor() {
-    super();
-    this.state = {
-      total: '0',
-      next: null,
-      operation: null,
-    };
-    this.clikHandler = this.clikHandler.bind(this);
+class Calculator extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { total: '0', next: null, operation: null };
   }
 
-  clikHandler = (e) => {
-    if (!e.target.name) return;
-
-    const { next, total, operation } = calculate(this.state, e.target.name);
-
-    if (next === null && total === null) {
-      this.setState({ next, total: '0', operation });
-    } else {
-      this.setState({ next, total, operation });
+    handleClick = (element) => {
+      const result = calculate(this.state, element);
+      if (result.next === null && result.total === null) {
+        result.total = '0';
+      }
+      this.setState(result);
     }
-  };
 
-  render() {
-    const { total, next } = this.state;
-    const btns = [
-      'AC',
-      '+/-',
-      '%',
-      '÷',
-      '7',
-      '8',
-      '9',
-      'x',
-      '4',
-      '5',
-      '6',
-      '-',
-      '1',
-      '2',
-      '3',
-      '+',
-      '0',
-      '.',
-      '=',
-    ];
-    return (
-      <div>
-        {next ? (
-          <div className="output-screen">{next}</div>
-        ) : (
-          <div className="output-screen">{total}</div>
-        )}
-        <div className="btn-rows">
-          {btns.map((btnName) => (
-            <button
-              onClick={(e) => this.clikHandler(e)}
-              name={btnName}
-              type="button"
-              className={`btn ${btnName === '0' ? 'btn-zero' : ''} ${
-                btnName === '=' ? 'btn-equal' : ''
-              }`}
-              key={btnName}
-            >
-              {btnName}
-            </button>
-          ))}
+    render() {
+      const { total, next, operation } = this.state;
+      const calculatorElem = ['AC', '+/-', '%', '÷', 7, 8, 9, 'x', 4, 5, 6, '-', 1, 2, 3, '+', 0, '.', '=']
+        .map((elem) => {
+          if (`${elem}` === 'AC' || `${elem}` === '+/-' || `${elem}` === '%' || `${elem}` === '.') {
+            return <Button btnName={`${elem}`} className="operation" handleClick={this.handleClick} key={elem} />;
+          } if (`${elem}` === 'x' || `${elem}` === '+' || `${elem}` === '-' || `${elem}` === '+' || `${elem}` === '=') {
+            return <Button btnName={`${elem}`} className="operator" handleClick={this.handleClick} key={elem} />;
+          } if (`${elem}` === '0') {
+            return <Button btnName={`${elem}`} className="number span-two" handleClick={this.handleClick} key={elem} />;
+          }
+          return <Button btnName={`${elem}`} className="number" handleClick={this.handleClick} key={elem} />;
+        });
+      return (
+        <div className="calculator-grid">
+          <OutputScreen previousOperand={total} operation={operation} currentOperand={next} />
+          {calculatorElem}
         </div>
-      </div>
-    );
-  }
+      );
+    }
 }
+
 export default Calculator;

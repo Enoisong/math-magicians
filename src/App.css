@@ -1,6 +1,5 @@
-.App {
-  text-align: center;
-  padding-top: 70px;
-  display: flex;
-  justify-content: center;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
