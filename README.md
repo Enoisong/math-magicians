@@ -1,70 +1,138 @@
-# Getting Started with Create React App
+# math-magicians 
+<a name="readme-top"></a>
+ # 📗 Table of Contents
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack) 
+    - [Key Features](#key-features) 
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- PROJECT DESCRIPTION -->
+# 📖 Math-magician <a name="about-project"></a> 
+ 
+## 🛠 Built With <a name="built-with"></a>
 
-## Available Scripts
+### Tech Stack <a name="tech-stack"></a>
+- React
+- Gitflow
+- Version Control (GitHub)
+ 
+<!-- Features -->
+### Key Features <a name="key-features"></a>
+- React & Redux linters added
+- Use Gitflow
+ 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-In the project directory, you can run:
+## 💻 Getting Started <a name="getting-started"></a>
+clone from repository: https://github.com/Enoisong/math-magicians.git
 
-### `npm start`
+```
+cd My-app
+npm install
+npm start
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
+In order to run this project you need to:
+- Install GIt
+- Install Live server VScode extension and run Go Live
+- Install a Command Line Interface to clone project-Git bash/Terminal
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Setup
+### Clone this repository  
 
-### `npm test`
+```bash
+```bash
+$ git clone https://github.com/Enoisong/math-magicians.git
+$ cd my-app
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Run project
+ 
+#### Open page in browser
+```bash
+$ runs on http://localhost:3000/
+```
 
-### `npm run build`
+### Install
+Install this project with:
+ 
+- VSCode
+- Git.
+- Github.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Usage
+### To run the project, execute the following command:  
+ 
+### Run tests
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
+To run linters tests, run the following command: 
+npx eslint "**/*.{js,jsx}"
+npx stylelint "**/*.{css,scss}"
+ 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+It will be deployed after merge
 
-### `npm run build` fails to minify
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- AUTHORS -->
+## 👥 Author <a name="author"></a> 
+- Enobong Isong
+ 
+👤 **Author**
+ - GitHub: [@githubhandle](https://github.com/Enoisong)
+- Twitter: [@twitterhandle](https://twitter.com/Enobongmisong)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/enobong-isong/)
+
+## 🔭 Future Features <a name="future-features"></a>
+ 
+- [] **To add more dynamics to the project - features like transition to make it Responsive**
+ 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, as well as feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project, give me a ⭐️ star!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+-	Thanks to the Microverse team for the great curriculum.
+-	Thanks to the Code Reviewer(s) for the insightly feedbacks.
+-	A great thanks to my coding partner(s), morning session team, 
+  and  standup team for their contributions.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+ 
+## 📝 License <a name="license"></a> 
+
+This project is [MIT](./MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
