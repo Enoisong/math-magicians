@@ -21,7 +21,7 @@
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
-# 📖 Math-magician <a name="about-project"></a> 
+# 📖 math-magician <a name="about-project"></a> 
  
 ## 🛠 Built With <a name="built-with"></a>
 
