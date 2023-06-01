@@ -126,7 +126,7 @@ If you like this project, give me a ⭐️ star!
 
 -	Thanks to the Microverse team for the great curriculum.
 -	Thanks to the Code Reviewer(s) for the insightly feedbacks.
--	A great thanks to my coding partner(s), morning session team, 
+-	A great thanks to my coding partner(s), morning session team 
   and  standup team for their contributions.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
