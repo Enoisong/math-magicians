@@ -10,7 +10,7 @@ class Button extends PureComponent {
   }
 }
 
-Button.PropTypes = {
+Button.propTypes = {
   btnName: PropTypes.string.isRequired,
   className: PropTypes.string.isRequired,
   handleClick: PropTypes.func.isRequired,
