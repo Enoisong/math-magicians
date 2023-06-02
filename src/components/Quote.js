@@ -20,4 +20,5 @@ class Quote extends React.Component {
     );
   }
 }
+
 export default Quote;
