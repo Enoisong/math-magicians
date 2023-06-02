@@ -53,4 +53,5 @@ function Quote() {
     </div>
   );
 }
+
 export default Quote;
