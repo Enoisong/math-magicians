@@ -6,6 +6,7 @@
 
 body {
   margin: 0;
+  background-color: #cac5c5;
 }
 
 .calculator-grid {
@@ -71,4 +72,37 @@ body {
   font-size: 2rem;
   border: 1px solid white;
   outline: none;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  margin-left: auto;
+  margin-bottom: 2px;
+}
+
+.navbar h1 {
+  color: #000;
+  font-size: 24px;
+}
+
+.quote h1 {
+  font-family: cursive;
+  margin-left: 17rem;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0;
+  font-size: 2.5rem;
+}
+
+.quote p {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  font-size: 2.5rem;
+  font-family: cursive;
 }
