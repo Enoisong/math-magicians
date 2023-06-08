@@ -6,12 +6,27 @@
 
 body {
   margin: 0;
-  background-color: #cac5c5;
+  background-color: linear-gradient(to left, #fdc168 #cac5c5);
 }
 
+.container-cal {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+  max-width: 1024px;
+  padding-left: 25px;
+  padding-right: 20px;
+}
+
+.container-cal h2 {
+  margin-left: 60px;
+  font-size: 1.7em;
+  margin-bottom: 20px;
+}
 .calculator-grid {
   display: grid;
-  margin-top: 2rem;
+  margin-top: -2rem;
   justify-content: center;
   grid-template-columns: repeat(4, 6rem);
   grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
@@ -60,8 +75,8 @@ body {
 }
 
 .operation:hover {
-  background-color: #979797;
-}
+  background-color: #de742d;
+} 
 
 .number:hover {
   background-color: #979797;
@@ -90,6 +105,41 @@ body {
   font-size: 24px;
 }
 
+.linklist {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color:#000;
+  font-size: 1.2rem;
+}
+
+.linklist:hover {
+  color: #5c3003
+}
+
+.Home {
+  margin-top: 30px;
+  padding: 10px 20px;
+}
+
+.Home p {
+  margin-left: 100px;
+  margin-right:0mm 100px;
+}
+
+.Home h2 {
+  margin-left: 60px;
+  font-size: 1.7em;
+  margin-bottom: 20px;
+}
+
+.Quote p {
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 20px 20px;
+  font-size: 1.7em;
+}
 .quote h1 {
   font-family: cursive;
   margin-left: 17rem;
