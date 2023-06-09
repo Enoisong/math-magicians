@@ -11,6 +11,7 @@ const Header = () => {
       <h1>Math Magicians</h1>
       <div style={links}>
         <NavLink to="/" className="linklist">Home</NavLink>
+        <NavLink to="/Calculator" className="linklist">Calculator</NavLink> 
         <NavLink to="/Quote" className="linklist">Quote</NavLink>        
       </div>
     </nav>
