@@ -6,14 +6,15 @@
 
 body {
   margin: 0;
-  background-color: linear-gradient(to left, #fdc168 #cac5c5);
+  background-color: #cac5c5;
+  font-family: cursive;
 }
 
 .container-cal {
   padding-top: 60px;
   display: flex;
   justify-content: space-between;
-  width:100%;
+  width: 100%;
   max-width: 1024px;
   padding-left: 25px;
   padding-right: 20px;
@@ -24,6 +25,7 @@ body {
   font-size: 1.7em;
   margin-bottom: 20px;
 }
+
 .calculator-grid {
   display: grid;
   margin-top: -2rem;
@@ -76,7 +78,7 @@ body {
 
 .operation:hover {
   background-color: #de742d;
-} 
+}
 
 .number:hover {
   background-color: #979797;
@@ -109,12 +111,12 @@ body {
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
-  color:#000;
+  color: #000;
   font-size: 1.2rem;
 }
 
 .linklist:hover {
-  color: #5c3003
+  color: #5c3003;
 }
 
 .Home {
@@ -124,7 +126,7 @@ body {
 
 .Home p {
   margin-left: 100px;
-  margin-right:0mm 100px;
+  margin-right: 100px;
 }
 
 .Home h2 {
@@ -140,6 +142,7 @@ body {
   padding: 20px 20px;
   font-size: 1.7em;
 }
+
 .quote h1 {
   font-family: cursive;
   margin-left: 17rem;
@@ -156,5 +159,3 @@ body {
   font-size: 2.5rem;
   font-family: cursive;
 }
-
- 
