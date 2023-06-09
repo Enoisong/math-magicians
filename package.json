@@ -27,7 +27,7 @@
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest"      
     ]
   },
   "browserslist": {
@@ -45,7 +45,7 @@
   "devDependencies": {
     "@babel/core": "^7.22.5",
     "@babel/eslint-parser": "^7.21.8",
-    "@babel/plugin-syntax-jsx": "^7.21.4",
+    "@babel/plugin-syntax-jsx": "^7.21.4",    
     "@babel/preset-env": "^7.22.5",
     "@babel/preset-react": "^7.22.5",
     "eslint": "^7.32.0",
