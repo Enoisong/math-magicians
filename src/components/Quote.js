@@ -46,9 +46,8 @@ function Quote() {
   }
 
   return (
-    <div>       
+    <div>
       <p className="Quote-body">{quote}</p>
-
     </div>
   );
 }
