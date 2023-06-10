@@ -125,3 +125,4 @@ export default function calculate(obj, buttonName) {
     operation: buttonName,
   };
 }
+
