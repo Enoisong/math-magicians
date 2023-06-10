@@ -3,25 +3,29 @@
 *::after {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
-  background-color:  #cac5c5;
+  background-color: #cac5c5;
   font-family: cursive;
 }
+
 .container-cal {
   padding-top: 60px;
   display: flex;
   justify-content: space-between;
-  width:100%;
+  width: 100%;
   max-width: 1024px;
   padding-left: 25px;
   padding-right: 20px;
 }
+
 .container-cal h2 {
   margin-left: 60px;
   font-size: 1.7em;
   margin-bottom: 20px;
 }
+
 .calculator-grid {
   display: grid;
   margin-top: -2rem;
@@ -29,9 +33,11 @@ body {
   grid-template-columns: repeat(4, 6rem);
   grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
 }
+
 .span-two {
   grid-column: span 2;
 }
+
 .output {
   grid-column: 1 / -1;
   background-color: #8c8c8f;
@@ -43,38 +49,48 @@ body {
   word-wrap: break-word;
   word-break: break-all;
 }
+
 .output .previous-operand {
   color: rgba(255, 255, 255, 0.75);
   font-size: 1.5rem;
 }
+
 .output .current-operand {
   color: white;
   font-size: 2.5rem;
 }
+
 .operator {
   background-color: #de742d;
 }
+
 .operator:hover {
   background-color: rgb(255, 115, 1);
 }
+
 .number {
   background-color: #d9d9d9;
 }
+
 .operation {
   background-color: #d9d9d9;
 }
+
 .operation:hover {
   background-color: #de742d;
-} 
+}
+
 .number:hover {
   background-color: #979797;
 }
+
 .calculator-grid > button {
   cursor: pointer;
   font-size: 2rem;
   border: 1px solid white;
   outline: none;
 }
+
 .navbar {
   padding: 20px;
   display: flex;
@@ -85,33 +101,40 @@ body {
   margin-left: auto;
   margin-bottom: 2px;
 }
+
 .navbar h1 {
   color: #000;
   font-size: 24px;
 }
+
 .linklist {
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
-  color:#000;
+  color: #000;
   font-size: 1.2rem;
 }
+
 .linklist:hover {
-  color: #5c3003
+  color: #5c3003;
 }
+
 .Home {
   margin-top: 30px;
   padding: 10px 20px;
 }
+
 .Home p {
   margin-left: 100px;
-  margin-right:0mm 100px;
+  margin-right: 100px;
 }
+
 .Home h2 {
   margin-left: 60px;
   font-size: 1.7em;
   margin-bottom: 20px;
 }
+
 .Quote p {
   margin-top: 100px;
   margin-left: 100px;
@@ -119,6 +142,7 @@ body {
   padding: 20px 20px;
   font-size: 1.7em;
 }
+
 .quote h1 {
   font-family: cursive;
   margin-left: 17rem;
@@ -127,11 +151,11 @@ body {
   padding-top: 0;
   font-size: 2.5rem;
 }
+
 .quote p {
   display: flex;
   flex-direction: column;
   padding: 0;
   font-size: 2.5rem;
   font-family: cursive;
-  }
-
+}
