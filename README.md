@@ -1,3 +1,4 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
 # math-magicians 
 <a name="readme-top"></a>
  # 📗 Table of Contents
@@ -22,9 +23,34 @@
 
 <!-- PROJECT DESCRIPTION -->
 # 📖 math-magician <a name="about-project"></a> 
+
+> math-magicians is a website for all fans of mathematics. It is a Single Page Application(SPA) that allows users to make simple calculations and read a random math-related quote.
  
 ## 🛠 Built With <a name="built-with"></a>
+- HTML
+- CSS
+- React.js
+- JavaScript
 
+## Getting Start
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+-  Clone the repository by running\
+    `git clone https://github.com/Enoisong/math-magicians.git`
+-  navigate to the folder\
+    `cd math-magicians`
+-  Install packages\
+    `npm install`
+-  Run the app\
+    `npm start`
+-  Eject the app\
+    `npm run eject`
+-  Create build app\
+    `npm run build`
+-  Test Linters app\
+    `npm run check-linters`
+    
 ### Tech Stack <a name="tech-stack"></a>
 - React
 - Gitflow
