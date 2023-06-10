@@ -47,9 +47,7 @@ function Quote() {
 
   return (
     <div>
-      <h2 className="Quote-head">Quote:</h2>
       <p className="Quote-body">{quote}</p>
-
     </div>
   );
 }
