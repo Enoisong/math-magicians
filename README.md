@@ -111,7 +111,7 @@ npx stylelint "**/*.{css,scss}"
  
 ### Deployment
 
-It will be deployed after merge
+[Live on render](https://math-magician-h0xv.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
